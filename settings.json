@@ -1,15 +1,15 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "svx",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "solocloud.host",
-    "port": 25565,
+    "ip": "Solvex.aternos.me",
+    "port": 31678,
     "version": "1.20.1",
-    "try-creative": false
+    "try-creative": true
   },
   "position": {
     "enabled": true,
@@ -29,11 +29,10 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 3600,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to SoloPlayz!",
-        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
+        "/gamemode creative",
+        "/tp 1064 128 1053"
       ]
     },
     "chat-log": true,
